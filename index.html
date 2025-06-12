@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./index.css">
-		<title>MyWeb</title>
-	</head>
 
-	<body>
-		<div class="body-bg-1"></div>
-		<div class="body-bg-2"></div>
-		<header>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="index.css">
+	<title>Test page</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="pg-title">Teste</h1>
+		<form>
+			<input type="search" name="search-bar" id="search-bar" placeholder="Rechercher...">
+			<button type="submit" id="search-button">Rechercher</button>
+		</form>
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Navigation</a></li>
+				<li><a href="#">À propos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="main-container">
+		<div class="lateral-menu">
+			<p class="lateral-menu-title">Navigation</p>
 			<nav>
 				<ul>
-					<li><a href="./index.html">Accueil</a></li>
-					<li><a href="./skills.html">Compétences</a></li>
-					<li><a href="">À propos</a></li>
-					<li><a href="">Contacts</a></li>
+					<li><a href="#">Lien 1</a></li>
+					<li><a href="#">Lien 2</a></li>
+					<li><a href="#">Lien 3</a></li>
+					<li><a href="#">Lien 4</a></li>
+					<li><a href="#">Lien 5</a></li>
 				</ul>
 			</nav>
-		</header>
-
-		<div class="main-content">
-			<section class="aside">
-				<h1>Bonjour, je suis <span class="subject">Mon Nom</span></h1>
-				<p>
-					Ici se placera une brève description du titulaire du portfolio. Mettez ici 
-					ce que vous trouvez d'intéressant sur vous en quelques lignes.
-				</p>
-			</section>
-			<section class="aside">
-				<img src="./avatar.png" alt="Avatar du titulaire du site">
-			</section>
 		</div>
 
-		<footer>
+		<div class="main-content">
+			<h2>Teste</h2>
 			<p>
-				Mettez ici une phrase de fin accrocheur, cela peut-être une citation, un proverbe 
-				ou une phrase propre à vous.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos soluta quaerat voluptate deleniti
+				sed maxime quasi cupiditate, possimus consequatur recusandae impedit hic repudiandae maiores similique
+				iure temporibus eveniet quod laudantium.
 			</p>
-		</footer>
-	</body>
+			<p>
+				Sans un système d'exploitation, pour lire un fichier sur votre disque, il faudrait connaître précisément
+				son fonctionnement. Par exemple, vous devriez savoir à quel endroit (secteur) se trouve le fichier,
+				quels
+				ports utiliser pour communiquer avec le disque, et ces informations varient selon sa marque et
+				son modèle.
+				Un système d'exploitation permet de faire l'<em>abstraction</em> de ces détails complexes et vous
+				offre une interface plus simple à utiliser, que ce soit via des commandes textuelles ou des
+				interfaces graphiques.
+			</p>
+		</div>
+	</div>
+
+	<footer>
+		<p>Copyright &copy; 2025 - Tous droits réservés.</p>
+	</footer>
+</body>
+
 </html>
